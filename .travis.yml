@@ -20,6 +20,6 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: $TESTE_API_KEY
+    secure: $ENCRYPTED_API_KEY
   app: devopslabs-hellobrazil
 
